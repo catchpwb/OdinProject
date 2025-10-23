@@ -29,39 +29,58 @@
 
     <!-- link css -->
     <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- link roboto font family from google -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
  </head>
  <body>
-    <!-- This is the first element -->
-    <!-- needs one element flush left and the 3 header links flex align right-->
-    <div class="header">
-        <div class="subcontainer1">Header logo</div>
-        <!-- Use unordered list -->
-        <ul>
-            <li><a href="#">Header link 1</a></li>
-            <li><a href="#">Header link 2</a></li>
-            <li><a href="#">Header link 3</a></li>
-        </ul>
+    <!-- This is the first container
+    contains 2 flex boxes-->
+    <div class="container1">
+        <!-- header container also contains 2 flex boxes -->
+        <div class="headerContainer1">
+            <div class="headerLogo">
+                Header Logo
+            </div>
+            <!-- make separate box for links -->
+            <div class="headerLinks">
+                <!-- unordered list of header links -->
+                <ul>
+                    <!-- link to nothing -->
+                    <li><a href="#">header link one</a></li>
+                    <li><a href="#">header link two</a></li>
+                    <li><a href="#">header link three</a></li>
+                </ul>
+            </div>
+        </div>
 
-        <!-- <div class="subcontainer3">
-            <div class="hero">This website is awesome</div>
-            <p>This website has some context that goes here under the main title. It's smaller font and the Color
-                is lower contrast
-            </p>
-            <button type="button">Sign Up</button>
-            <img src="img.jpg" alt="Picture from wales" width="200px">
-        </div> -->
+        <!-- make second box for picture, button and paragraphs -->
+        <div class="headerContainer2">
+            <!-- container with paragraphs and button in row format -->
+            <div class="leftHeaderContainer2">
+                <p>stuff1</p>
+                <p>stuff2</p>
+                <button type="button">Sign Up!</button>
+            </div>
+            <!-- container with image -->
+            <div class="rightHeaderContainer2">
+                <img src="img.jpg" alt="put picture here" style="width:600px;height:200px">
+            </div>
+        </div>
+    <!-- first element header ends -->
     </div>
 
-    <!-- This is the second element -->
+    <!-- This is the second container2 -->
     <div class="container2">part 2</div>
  
-    <!-- This is the third element -->
+    <!-- This is the third container3 -->
     <div class="container3">part 3</div>
  
-    <!-- This is the fourth element -->
+    <!-- This is the fourth container4 -->
     <div class="container4">part 4</div>
  
-    <!-- This is the fifth element -->
+    <!-- This is the fifth container5 -->
     <footer>This is the footer</footer>
  </body>
  </html>
