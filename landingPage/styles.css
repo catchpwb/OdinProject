@@ -1,5 +1,29 @@
-.container1{
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    /* flex box and sets gaps between elements */
+    display: flex;
+    gap: 8px;
+    /* justify-content: space-between; */
+}
+
+a{
+    /* gets rid of underline and sets color to white for links */
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    /* margin collapsing */
+    margin: 0 0 0 0;
+}
+.header{
     background-color: #1F2937;
     font: roboto;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* set right and left padding */
+    padding: 0 15% 0 15%;
 }
